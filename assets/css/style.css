@@ -382,7 +382,7 @@ input{
 .home_description{
     max-width: 450px;
     margin-bottom: var(--mb-2);
-    font-weight: lighter;
+    font-weight: var(--font-medium);
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: .7s;
