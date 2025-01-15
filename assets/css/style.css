@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     /* Colors */
@@ -14,7 +14,7 @@
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 26%);
 
     /* Font and typography */
-    --body-font: 'Montserrat', sans-serif;
+    --body-font: 'Montserrat', serif;
 
     --biggest-font-size: 3rem;
     --h1-font-size: 2.25rem;
