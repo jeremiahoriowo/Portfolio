@@ -1576,6 +1576,7 @@ textarea.input{
     .home_description {
         max-width: 300px;
         margin: 0 auto var(--mb-1);
+        font-weight: var(--font-bold);
     }
     .info_item {
         justify-content: center;
