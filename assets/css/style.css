@@ -211,6 +211,7 @@ input{
     right: 0;
     text-align: center;
     animation: slideRight 2s ease forwards;
+    cursor: pointer;
 }
 
 .social_share{
