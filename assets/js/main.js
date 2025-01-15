@@ -25,21 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-document.getElementById('btn-share').addEventListener('click', () => {
-  if (navigator.share) {
-      // Web Share API
-      navigator.share({
-          title: 'Check out this website!',
-          text: 'I found this amazing website. Check it out!',
-          url: window.location.href, // Current page URL
-      })
-      .then(() => console.log('Successfully shared!'))
-      .catch((error) => console.error('Error sharing:', error));
-  } else {
-      // Fallback for unsupported browsers
-      alert('Sharing is not supported on this browser. Copy the link to share!');
-  }
-});
 
 
 // Typing Effect
